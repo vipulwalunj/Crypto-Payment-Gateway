@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout with Crypto</title>
+</head>
+
+<body>
+    <h1>Checkout with Crypto</h1>
+    <button id="connectButton">Connect MetaMask</button>
+    <div id="accountContainer" style="display:none;">
+        <p>Connected Account: <span id="accountAddress"></span></p>
+        <button id="payButton">Pay with Crypto</button>
+    </div>
+    <div id="transactionContainer" style="display:none;">
+        <h2>Transaction Details</h2>
+        <div id="transactionDetails"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.3.4/dist/web3.min.js"></script>
+    <script src="iudx.js"></script>
+</body>
+
+</html>
