@@ -41,5 +41,8 @@ Ensure you have some ETH in your MetaMask wallet for transaction fees.
 # API Key
 In iudx.js, replace Etherscan API Key with your actual Etherscan API key to fetch transaction details.
 
+# Cross Chain Transactions
+To perform cross-chain transactions using MetaMask, you need tokens supported on both the source and destination blockchains, like ERC-20 tokens on Ethereum and BEP-20 tokens on Binance Smart Chain (BSC). First, configure MetaMask to interact with both networks by adding the custom RPC endpoint for BSC. Then, use a bridge like Anyswap or Binance Bridge to transfer assets. These bridges lock tokens on one chain (e.g., Ethereum) and mint equivalent tokens on the other (e.g., BSC). You'll need enough native tokens (ETH for Ethereum, BNB for BSC) to cover gas fees. Once complete, you can switch MetaMask to the destination network to access your transferred tokens. This process allows you to benefit from the features of multiple blockchains while ensuring secure transactions.
+
 # License
 This project is licensed under the MIT License. See the LICENSE file for details.
