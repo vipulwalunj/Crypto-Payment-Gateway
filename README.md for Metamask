@@ -1,0 +1,48 @@
+# Setting Up MetaMask for Crypto Payment Integration
+
+## Introduction
+This guide helps you install and configure MetaMask for interacting with the Ethereum blockchain and test networks like Sepolia.
+
+---
+
+## Steps to Install and Configure MetaMask
+
+### 1. Install MetaMask
+1. Visit the [MetaMask website](https://metamask.io).
+2. Download and install the browser extension for Chrome, Firefox, or Edge.
+
+---
+
+### 2. Create a Wallet
+1. Open MetaMask and click **Get Started**.
+2. Select **Create a Wallet** and follow the prompts.
+3. Save your seed phrase in a secure location.
+
+---
+
+### 3. Add Sepolia Test Network
+1. Open MetaMask and click the network dropdown at the top.
+2. Select **Add Network**.
+3. Enter the following details:
+   - **Network Name**: Sepolia Testnet
+   - **New RPC URL**: `https://rpc.sepolia.dev`
+   - **Chain ID**: `11155111`
+   - **Currency Symbol**: ETH
+
+---
+
+### 4. Obtain Test ETH
+1. Use a [Sepolia Faucet](https://sepoliafaucet.com) to obtain free test ETH.
+2. Enter your wallet address and complete the captcha to receive ETH.
+
+---
+
+### 5. Connect to the Application
+1. Open the web application and click **Connect Wallet**.
+2. Authorize the connection through MetaMask.
+
+---
+
+## Notes
+- Always verify URLs and RPC details before adding new networks.
+- For more information, visit the [MetaMask documentation](https://metamask.io/).
